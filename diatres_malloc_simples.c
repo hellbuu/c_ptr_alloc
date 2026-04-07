@@ -18,6 +18,6 @@ int main(){
     
     *ptr = 99;
     printf("valor apontado: %.2f\n", *ptr);
-    printf("valor apontado: %p\n", ptr);
+    printf("endereco apontado: %p\n", ptr);
     free(ptr);
 }
